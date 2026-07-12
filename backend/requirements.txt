@@ -9,3 +9,6 @@ tensorflow-hub==0.16.1
 tensorflow-metadata==1.21.0
 tensorflow-probability==0.25.0
 tensorflow-text==2.20.1
+fastapi
+uvicorn
+python-multipart
