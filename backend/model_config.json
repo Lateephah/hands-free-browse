@@ -1,14 +1,9 @@
 {
     "model_name": "EfficientNetB0",
-    "input_shape": [
-        224,
-        224,
-        3
-    ],
-    "image_size": [
-        224,
-        224
-    ],
+    "input_shape": [224, 224, 3],
+    "input_height": 224,
+    "input_width": 224,
+    "image_size": [224, 224],
     "color_mode": "rgb",
     "num_classes": 6,
     "class_names": [
@@ -21,6 +16,6 @@
     ],
     "preprocessing": {
         "resize": true,
-        "normalize": false
+        "normalize": true
     }
 }
